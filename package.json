@@ -19,8 +19,12 @@
   },
   "homepage": "https://github.com/soohyeok/prismagram#readme",
   "dependencies": {
+    "@graphql-tools/load-files": "^6.5.2",
+    "@graphql-tools/merge": "^8.2.1",
+    "@graphql-tools/schema": "^8.3.1",
     "@prisma/client": "^3.6.0",
     "apollo-server": "^2.25.2",
+    "dotenv": "^10.0.0",
     "graphql": "^15.7.2"
   },
   "devDependencies": {
