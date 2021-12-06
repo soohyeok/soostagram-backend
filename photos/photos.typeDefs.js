@@ -12,7 +12,7 @@ export default gql`
   }
   type Hashtag {
     id: Int!
-    hashtag: String
+    hashtag: String @unique
     photos: [Photo]
     createdAt: String!
     updatedAt: String!
