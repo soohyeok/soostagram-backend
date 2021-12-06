@@ -12,7 +12,6 @@ export default {
             where: { hashtag },
             create: { hashtag },
           }));
-          console.log(hashtagObj);
         }
         return client.photo.create({
           data: {
