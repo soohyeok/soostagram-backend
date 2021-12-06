@@ -1,5 +1,9 @@
 # Prismagram
 
+### Description
+
+backend with Prisma and GraphQL
+
 ### Requirement
 
 - npm
