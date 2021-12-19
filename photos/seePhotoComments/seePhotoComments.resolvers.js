@@ -6,9 +6,9 @@ export default {
       client.comment.findMany({
         where: {
           photoId: id,
-        }, // skip take or cursor
+        },
         orderBy: {
-          createdAt: "desc",
+          createdAt: "asc",
         },
       }),
   },
