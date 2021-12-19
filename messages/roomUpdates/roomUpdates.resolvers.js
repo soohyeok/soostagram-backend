@@ -21,7 +21,7 @@ export default {
           },
         });
         if (!room) {
-          throw new Error("what's up bro");
+          throw new Error("You cannot see this.");
         }
         return withFilter(
           () => pubsub.asyncIterator(NEW_MESSAGE),
